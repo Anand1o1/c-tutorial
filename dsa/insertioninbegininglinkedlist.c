@@ -40,7 +40,7 @@ int main()
     fourth->next = NULL;
 
     traversal(head);
-    head = insertatfirst(head, 56);
+    head=insertatfirst(head, 56);
     printf("\n");
     traversal(head);
 
