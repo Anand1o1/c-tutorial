@@ -8,12 +8,18 @@ struct node
 void traversal(struct node *head)
 {
     struct node *p=head;
-    while (p->next != head)
+    // while (p->next != head)
+    // {
+    //     printf("%d ", p->data);
+    //     p=p->next;
+    // }
+    // printf("%d",p->data);
+    do
     {
-        printf("%d ", p->data);
+        printf("%d ,",p->data);
         p=p->next;
-    }
-    printf("%d",p->data);
+    } while (p!=head);
+    
 };
 
 int main()
